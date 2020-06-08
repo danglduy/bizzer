@@ -12,9 +12,9 @@
       </div>
 
       <div class="form-group">
-        <%= label f, :username, "Tên hiển thị", class: "form-label" %>
-        <%= text_input f, :username, class: "input", placeholder: "Nguyễn Văn A" %>
-        <%= form_error f, :username %>
+        <%= label f, :name, "Tên hiển thị", class: "form-label" %>
+        <%= text_input f, :name, class: "input", placeholder: "Nguyễn Văn A" %>
+        <%= form_error f, :name %>
       </div>
 
       <div class="form-group">
