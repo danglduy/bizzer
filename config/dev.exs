@@ -61,7 +61,7 @@ config :phoenix, :stacktrace_depth, 20
 config :bizzer, Bizzer.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "postgres",
+  password: "home1234",
   database: "bizzer_dev",
   hostname: "localhost",
   pool_size: 10
